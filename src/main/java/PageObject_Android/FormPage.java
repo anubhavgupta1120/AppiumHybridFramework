@@ -1,4 +1,4 @@
-package PageObjectClasses;
+package PageObject_Android;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;

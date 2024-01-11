@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-11T21:45:35 IST" name="Default suite" finished-at="2024-01-11T21:46:43 IST" duration-ms="67605">
+  <suite started-at="2024-01-11T23:03:08 IST" name="Default suite" finished-at="2024-01-11T23:04:15 IST" duration-ms="66951">
     <groups>
     </groups>
-    <test started-at="2024-01-11T21:45:35 IST" name="Default test" finished-at="2024-01-11T21:46:43 IST" duration-ms="67605">
+    <test started-at="2024-01-11T23:03:08 IST" name="Default test" finished-at="2024-01-11T23:04:15 IST" duration-ms="66951">
       <class name="TestFolders.AndroidFlow">
-        <test-method is-config="true" signature="StartServer()[pri:0, instance:TestFolders.AndroidFlow@44ebcd03]" started-at="2024-01-11T21:45:35 IST" name="StartServer" finished-at="2024-01-11T21:45:39 IST" duration-ms="3357" status="PASS">
+        <test-method is-config="true" signature="StartServer()[pri:0, instance:TestFolders.AndroidFlow@44ebcd03]" started-at="2024-01-11T23:03:08 IST" name="StartServer" finished-at="2024-01-11T23:03:09 IST" duration-ms="1691" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartServer -->
-        <test-method is-config="true" signature="initiateDriver()[pri:0, instance:TestFolders.AndroidFlow@44ebcd03]" started-at="2024-01-11T21:45:39 IST" name="initiateDriver" finished-at="2024-01-11T21:45:46 IST" duration-ms="6804" status="PASS">
+        <test-method is-config="true" signature="initiateDriver()[pri:0, instance:TestFolders.AndroidFlow@44ebcd03]" started-at="2024-01-11T23:03:09 IST" name="initiateDriver" finished-at="2024-01-11T23:03:15 IST" duration-ms="5604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriver -->
-        <test-method signature="Test()[pri:0, instance:TestFolders.AndroidFlow@44ebcd03]" started-at="2024-01-11T21:45:46 IST" name="Test" finished-at="2024-01-11T21:46:39 IST" duration-ms="53532" status="PASS">
+        <test-method signature="Test()[pri:0, instance:TestFolders.AndroidFlow@44ebcd03]" started-at="2024-01-11T23:03:15 IST" name="Test" finished-at="2024-01-11T23:04:09 IST" duration-ms="53941" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestFolders.AndroidFlow@44ebcd03]" started-at="2024-01-11T21:46:39 IST" name="tearDown" finished-at="2024-01-11T21:46:39 IST" duration-ms="285" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestFolders.AndroidFlow@44ebcd03]" started-at="2024-01-11T23:04:09 IST" name="tearDown" finished-at="2024-01-11T23:04:09 IST" duration-ms="323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="stopServer()[pri:0, instance:TestFolders.AndroidFlow@44ebcd03]" started-at="2024-01-11T21:46:39 IST" name="stopServer" finished-at="2024-01-11T21:46:43 IST" duration-ms="3564" status="PASS">
+        <test-method is-config="true" signature="stopServer()[pri:0, instance:TestFolders.AndroidFlow@44ebcd03]" started-at="2024-01-11T23:04:09 IST" name="stopServer" finished-at="2024-01-11T23:04:15 IST" duration-ms="5363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopServer -->

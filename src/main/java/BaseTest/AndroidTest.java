@@ -11,6 +11,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
+import PageObject_Android.FormPage;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
@@ -22,6 +23,7 @@ public class AndroidTest {
 	
 	public AppiumDriver driver;
 	private AppiumDriverLocalService service;
+	public FormPage formPage;
 
 	@BeforeClass
 	public void StartServer() {
@@ -47,6 +49,7 @@ public class AndroidTest {
 				"/Users/anubhavgupta/Documents/eclipse-workspace(Java)/AppTestingFramework/src/main/java/APPS/General-Store.apk");
 		driver = new AndroidDriver(new URL("http://127.0.0.1:4723/"), options);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		formPage = new FormPage(driver);
 	}
 
 	@AfterMethod
