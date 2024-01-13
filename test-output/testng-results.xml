@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-11T23:03:08 IST" name="Default suite" finished-at="2024-01-11T23:04:15 IST" duration-ms="66951">
+  <suite started-at="2024-01-13T17:16:39 IST" name="Default suite" finished-at="2024-01-13T17:17:11 IST" duration-ms="31768">
     <groups>
     </groups>
-    <test started-at="2024-01-11T23:03:08 IST" name="Default test" finished-at="2024-01-11T23:04:15 IST" duration-ms="66951">
-      <class name="TestFolders.AndroidFlow">
-        <test-method is-config="true" signature="StartServer()[pri:0, instance:TestFolders.AndroidFlow@44ebcd03]" started-at="2024-01-11T23:03:08 IST" name="StartServer" finished-at="2024-01-11T23:03:09 IST" duration-ms="1691" status="PASS">
+    <test started-at="2024-01-13T17:16:39 IST" name="Default test" finished-at="2024-01-13T17:17:11 IST" duration-ms="31768">
+      <class name="TestFolders.IOSTest">
+        <test-method is-config="true" signature="StartServer()[pri:0, instance:TestFolders.IOSTest@1a451d4d]" started-at="2024-01-13T17:16:39 IST" name="StartServer" finished-at="2024-01-13T17:16:42 IST" duration-ms="3320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartServer -->
-        <test-method is-config="true" signature="initiateDriver()[pri:0, instance:TestFolders.AndroidFlow@44ebcd03]" started-at="2024-01-11T23:03:09 IST" name="initiateDriver" finished-at="2024-01-11T23:03:15 IST" duration-ms="5604" status="PASS">
+        <test-method is-config="true" signature="initiateDriver()[pri:0, instance:TestFolders.IOSTest@1a451d4d]" started-at="2024-01-13T17:16:42 IST" name="initiateDriver" finished-at="2024-01-13T17:17:01 IST" duration-ms="18692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriver -->
-        <test-method signature="Test()[pri:0, instance:TestFolders.AndroidFlow@44ebcd03]" started-at="2024-01-11T23:03:15 IST" name="Test" finished-at="2024-01-11T23:04:09 IST" duration-ms="53941" status="PASS">
+        <test-method signature="Test()[pri:0, instance:TestFolders.IOSTest@1a451d4d]" started-at="2024-01-13T17:17:01 IST" name="Test" finished-at="2024-01-13T17:17:05 IST" duration-ms="3766" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestFolders.AndroidFlow@44ebcd03]" started-at="2024-01-11T23:04:09 IST" name="tearDown" finished-at="2024-01-11T23:04:09 IST" duration-ms="323" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestFolders.IOSTest@1a451d4d]" started-at="2024-01-13T17:17:05 IST" name="tearDown" finished-at="2024-01-13T17:17:06 IST" duration-ms="1087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="stopServer()[pri:0, instance:TestFolders.AndroidFlow@44ebcd03]" started-at="2024-01-11T23:04:09 IST" name="stopServer" finished-at="2024-01-11T23:04:15 IST" duration-ms="5363" status="PASS">
+        <test-method is-config="true" signature="stopServer()[pri:0, instance:TestFolders.IOSTest@1a451d4d]" started-at="2024-01-13T17:17:06 IST" name="stopServer" finished-at="2024-01-13T17:17:11 IST" duration-ms="4879" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopServer -->
-      </class> <!-- TestFolders.AndroidFlow -->
+      </class> <!-- TestFolders.IOSTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
