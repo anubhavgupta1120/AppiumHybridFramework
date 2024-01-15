@@ -7,7 +7,7 @@ import BaseTest.IOSTest;
 import PageObject_IOS.AlertPage;
 
 public class IOSFlow extends IOSTest {
-	@Test
+	@Test(groups = {"Smoke", "Regression"})
 	public void Test() {
 		AlertPage alertPage = homePage.goToAlertsPage();
 		alertPage.clickTextEntry();

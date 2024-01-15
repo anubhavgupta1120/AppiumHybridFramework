@@ -15,7 +15,7 @@ import PageObject_Android.ProductPage;
 public class AndroidFlow extends AndroidTest {
 	
 	
-	@Test(dataProvider = "getData")
+	@Test(dataProvider = "getData", groups = {"Regression"})
 	public void fillForm_PositiveFlow(HashMap<String, String> values) throws InterruptedException {
 		ProductPage productPage = formPage.fillForm(values.get("Country"), values.get("Name"), values.get("Gender"));
 		CartPage cartPage = productPage.addProducts(List.of(values.get("Product_1"), values.get("Product_2")));
@@ -23,7 +23,7 @@ public class AndroidFlow extends AndroidTest {
 		cartPage.proceedToPlaceOrder();
 	}
 	
-	@Test
+	@Test(groups = {"Smoke", "Regression"})
 	public void fillForm_ErrorValidation() {
 		formPage.selectCountry("Australia");
 		formPage.setGender("Female");

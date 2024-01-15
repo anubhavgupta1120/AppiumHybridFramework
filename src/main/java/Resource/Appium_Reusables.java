@@ -10,6 +10,8 @@ import java.util.List;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -36,13 +38,21 @@ public abstract class Appium_Reusables {
 				});
 		return jsonList;
 	}
-	
+
 	public static String getProperty(String key) throws IOException {
 		final String Path = "/Users/anubhavgupta/Documents/eclipse-workspace(Java)/AppTestingFramework/GlobalFiles/GlobalData.properties";
 		FileInputStream FIS = new FileInputStream(new File(Path));
 		Properties properties = new Properties();
 		properties.load(FIS);
 		return properties.getProperty(key);
+	}
+
+	public static String getScreenShot(String TestCaseName, AppiumDriver driver) throws IOException {
+		File sourcePath = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		String pathOfSS = System.getProperty("user.dir") + "/ScreenShots/" + TestCaseName + ".png";
+		FileUtils.copyFile(sourcePath, new File(pathOfSS));
+		return pathOfSS;
+
 	}
 
 }

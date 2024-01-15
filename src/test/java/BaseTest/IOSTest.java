@@ -26,7 +26,7 @@ public class IOSTest extends Appium_Reusables{
 	private AppiumDriverLocalService service;
 	public HomePage homePage;
 
-	@BeforeClass
+	@BeforeClass(alwaysRun = true)
 	public void StartServer() throws NumberFormatException, IOException {
 		// Set the ANDROID_HOME Path
 		HashMap<String, String> env = new HashMap<>();
@@ -41,7 +41,7 @@ public class IOSTest extends Appium_Reusables{
 		service.start();
 	}
 
-	@BeforeMethod
+	@BeforeMethod(alwaysRun = true)
 	public void initiateDriver() throws MalformedURLException {
 
 		XCUITestOptions options = new XCUITestOptions();
@@ -55,12 +55,12 @@ public class IOSTest extends Appium_Reusables{
 		homePage = new HomePage(driver);
 	}
 
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
 	public void tearDown() {
 		driver.quit();
 	}
 
-	@AfterClass
+	@AfterClass(alwaysRun = true)
 	public void stopServer() {
 		service.stop();
 	}

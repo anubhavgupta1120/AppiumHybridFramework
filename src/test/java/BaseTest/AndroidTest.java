@@ -25,7 +25,7 @@ public class AndroidTest extends Appium_Reusables{
 	private AppiumDriverLocalService service;
 	public FormPage formPage;
 
-	@BeforeClass
+	@BeforeClass(alwaysRun = true)
 	public void StartServer() throws NumberFormatException, IOException {
 		// Set the ANDROID_HOME Path
 		HashMap<String, String> env = new HashMap<>();
@@ -40,7 +40,7 @@ public class AndroidTest extends Appium_Reusables{
 		service.start();
 	}
 
-	@BeforeMethod
+	@BeforeMethod(alwaysRun = true)
 	public void initiateDriver() throws IOException {
 
 		UiAutomator2Options options = new UiAutomator2Options();
@@ -53,12 +53,12 @@ public class AndroidTest extends Appium_Reusables{
 		formPage = new FormPage(driver);
 	}
 
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
 	public void tearDown() {
 		driver.quit();
 	}
 
-	@AfterClass
+	@AfterClass(alwaysRun = true)
 	public void stopServer() {
 		service.stop();
 	}
