@@ -81,7 +81,7 @@
 							<version>3.2.5</version>
 							<configuration>
 								<suiteXmlFiles>
-									<suiteXmlFile>TestNG_Regression.xml</suiteXmlFile>
+									<suiteXmlFile>XML Files/TestNG_Regression.xml</suiteXmlFile>
 								</suiteXmlFiles>
 							</configuration>
 						</plugin>
@@ -100,7 +100,7 @@
 							<version>3.2.5</version>
 							<configuration>
 								<suiteXmlFiles>
-									<suiteXmlFile>TestNG_Smoke.xml</suiteXmlFile>
+									<suiteXmlFile>XML Files/TestNG_Smoke.xml</suiteXmlFile>
 								</suiteXmlFiles>
 							</configuration>
 						</plugin>
