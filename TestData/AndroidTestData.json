@@ -1,0 +1,16 @@
+[
+    {
+        "Name": "Anubhav Gupta",
+        "Gender" : "Male",
+        "Country" : "India",
+        "Product_1" : "Air Jordan 9 Retro",
+        "Product_2" : "PG 3"
+    },
+    {
+        "Name": "Deepanshi Garg",
+        "Gender" : "Female",
+        "Country" : "Australia",
+        "Product_1" : "Air Jordan 4 Retro",
+        "Product_2" : "PG 3"
+    }
+]

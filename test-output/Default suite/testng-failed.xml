@@ -8,7 +8,7 @@
           <include name="tearDown"/>
           <include name="StartServer"/>
           <include name="initiateDriver"/>
-          <include name="Test"/>
+          <include name="fillForm_PositiveFlow" invocation-numbers="0"/>
           <include name="stopServer"/>
         </methods>
       </class> <!-- TestFolders.AndroidFlow -->
