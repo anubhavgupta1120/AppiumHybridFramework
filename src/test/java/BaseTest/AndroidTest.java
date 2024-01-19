@@ -27,14 +27,16 @@ public class AndroidTest extends Appium_Reusables{
 
 	@BeforeClass(alwaysRun = true)
 	public void StartServer() throws NumberFormatException, IOException {
+		//To run the test from maven use : mvn test -P{$Profile} -DIPaddress={$addressValue}
 		// Set the ANDROID_HOME Path
 		HashMap<String, String> env = new HashMap<>();
 		env.put("ANDROID_HOME", "/Users/anubhavgupta/Library/Android/sdk");
+		String IPaddress = System.getProperty("IPaddress") != null ? System.getProperty("IPaddress") : getProperty("IPaddress");
 
 		AppiumServiceBuilder builder = new AppiumServiceBuilder();
 		builder.withAppiumJS(new File("/usr/local/lib/node_modules/appium/build/lib/main.js"))
 				.usingDriverExecutable(new File("/usr/local/bin/node")).withEnvironment(env).usingPort(Integer.valueOf(getProperty("Port")))
-				.withIPAddress(String.valueOf(getProperty("IPaddress")))
+				.withIPAddress(String.valueOf(IPaddress))
 				.withArgument(GeneralServerFlag.LOCAL_TIMEZONE);
 		service = AppiumDriverLocalService.buildService(builder);
 		service.start();

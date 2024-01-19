@@ -8,7 +8,7 @@ import PageObject_IOS.AlertPage;
 
 public class IOSFlow extends IOSTest {
 	@Test(groups = {"Smoke", "Regression"})
-	public void Test() {
+	public void AlertTest() {
 		AlertPage alertPage = homePage.goToAlertsPage();
 		alertPage.clickTextEntry();
 		Alert alert = driver.switchTo().alert();

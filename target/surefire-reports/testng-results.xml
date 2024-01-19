@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-15T22:00:36 IST" name="Suite" finished-at="2024-01-15T22:02:59 IST" duration-ms="143042">
+    <groups>
+      <group name="Regression">
+        <method signature="AndroidFlow.fillForm_ErrorValidation()[pri:0, instance:TestFolders.AndroidFlow@196a42c3]" name="fillForm_ErrorValidation" class="TestFolders.AndroidFlow"/>
+        <method signature="AndroidFlow.fillForm_PositiveFlow(java.util.HashMap)[pri:0, instance:TestFolders.AndroidFlow@196a42c3]" name="fillForm_PositiveFlow" class="TestFolders.AndroidFlow"/>
+        <method signature="IOSFlow.Test()[pri:0, instance:TestFolders.IOSFlow@33065d67]" name="Test" class="TestFolders.IOSFlow"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="AndroidFlow.fillForm_ErrorValidation()[pri:0, instance:TestFolders.AndroidFlow@196a42c3]" name="fillForm_ErrorValidation" class="TestFolders.AndroidFlow"/>
+        <method signature="IOSFlow.Test()[pri:0, instance:TestFolders.IOSFlow@33065d67]" name="Test" class="TestFolders.IOSFlow"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-01-15T22:00:36 IST" name="Test" finished-at="2024-01-15T22:02:59 IST" duration-ms="143042">
+      <class name="TestFolders.AndroidFlow">
+        <test-method is-config="true" signature="StartServer()[pri:0, instance:TestFolders.AndroidFlow@196a42c3]" started-at="2024-01-15T22:00:55 IST" name="StartServer" finished-at="2024-01-15T22:00:56 IST" duration-ms="1312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartServer -->
+        <test-method is-config="true" signature="initiateDriver()[pri:0, instance:TestFolders.AndroidFlow@196a42c3]" started-at="2024-01-15T22:00:56 IST" name="initiateDriver" finished-at="2024-01-15T22:01:05 IST" duration-ms="9162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriver -->
+        <test-method signature="fillForm_ErrorValidation()[pri:0, instance:TestFolders.AndroidFlow@196a42c3]" started-at="2024-01-15T22:01:05 IST" name="fillForm_ErrorValidation" finished-at="2024-01-15T22:01:16 IST" duration-ms="10831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillForm_ErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestFolders.AndroidFlow@196a42c3]" started-at="2024-01-15T22:01:16 IST" name="tearDown" finished-at="2024-01-15T22:01:17 IST" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initiateDriver()[pri:0, instance:TestFolders.AndroidFlow@196a42c3]" started-at="2024-01-15T22:01:17 IST" name="initiateDriver" finished-at="2024-01-15T22:01:22 IST" duration-ms="5135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriver -->
+        <test-method signature="fillForm_PositiveFlow(java.util.HashMap)[pri:0, instance:TestFolders.AndroidFlow@196a42c3]" started-at="2024-01-15T22:01:22 IST" name="fillForm_PositiveFlow" data-provider="getData" finished-at="2024-01-15T22:02:16 IST" duration-ms="54053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_1=Air Jordan 9 Retro, Country=India, Product_2=PG 3, Gender=Male, Name=Anubhav Gupta}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillForm_PositiveFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestFolders.AndroidFlow@196a42c3]" started-at="2024-01-15T22:02:16 IST" name="tearDown" finished-at="2024-01-15T22:02:17 IST" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initiateDriver()[pri:0, instance:TestFolders.AndroidFlow@196a42c3]" started-at="2024-01-15T22:02:17 IST" name="initiateDriver" finished-at="2024-01-15T22:02:23 IST" duration-ms="6927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriver -->
+        <test-method signature="fillForm_PositiveFlow(java.util.HashMap)[pri:0, instance:TestFolders.AndroidFlow@196a42c3]" started-at="2024-01-15T22:02:23 IST" name="fillForm_PositiveFlow" data-provider="getData" finished-at="2024-01-15T22:02:52 IST" duration-ms="28949" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_1=Air Jordan 4 Retro, Country=Australia, Product_2=PG 3, Gender=Female, Name=Deepanshi Garg}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillForm_PositiveFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestFolders.AndroidFlow@196a42c3]" started-at="2024-01-15T22:02:52 IST" name="tearDown" finished-at="2024-01-15T22:02:53 IST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="stopServer()[pri:0, instance:TestFolders.AndroidFlow@196a42c3]" started-at="2024-01-15T22:02:53 IST" name="stopServer" finished-at="2024-01-15T22:02:59 IST" duration-ms="5808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopServer -->
+      </class> <!-- TestFolders.AndroidFlow -->
+      <class name="TestFolders.IOSFlow">
+        <test-method is-config="true" signature="StartServer()[pri:0, instance:TestFolders.IOSFlow@33065d67]" started-at="2024-01-15T22:00:36 IST" name="StartServer" finished-at="2024-01-15T22:00:37 IST" duration-ms="1683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartServer -->
+        <test-method is-config="true" signature="initiateDriver()[pri:0, instance:TestFolders.IOSFlow@33065d67]" started-at="2024-01-15T22:00:37 IST" name="initiateDriver" finished-at="2024-01-15T22:00:45 IST" duration-ms="7999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriver -->
+        <test-method signature="Test()[pri:0, instance:TestFolders.IOSFlow@33065d67]" started-at="2024-01-15T22:00:45 IST" name="Test" finished-at="2024-01-15T22:00:49 IST" duration-ms="3271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestFolders.IOSFlow@33065d67]" started-at="2024-01-15T22:00:49 IST" name="tearDown" finished-at="2024-01-15T22:00:50 IST" duration-ms="1103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="stopServer()[pri:0, instance:TestFolders.IOSFlow@33065d67]" started-at="2024-01-15T22:00:50 IST" name="stopServer" finished-at="2024-01-15T22:00:55 IST" duration-ms="5256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopServer -->
+      </class> <!-- TestFolders.IOSFlow -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
